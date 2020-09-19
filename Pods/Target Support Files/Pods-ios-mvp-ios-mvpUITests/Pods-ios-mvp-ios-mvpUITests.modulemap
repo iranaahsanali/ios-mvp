@@ -1,0 +1,6 @@
+framework module Pods_ios_mvp_ios_mvpUITests {
+  umbrella header "Pods-ios-mvp-ios-mvpUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

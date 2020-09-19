@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Font Awesome 5 Free-Solid-900.otf">
+            <string>FontAwesome5Free-Solid</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HourlyWeatherCollectionViewCell" id="gTV-IL-0wX" customClass="HourlyWeatherCollectionViewCell" customModule="Netsole" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="72" height="128"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="72" height="128"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VTV-Ky-SaY">
+                        <rect key="frame" x="36" y="10" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKg-f4-xor">
+                        <rect key="frame" x="36" y="118" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYN-ct-WIh">
+                        <rect key="frame" x="36" y="64" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" name="FontAwesome5Free-Solid" family="Font Awesome 5 Free" pointSize="25"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="FYN-ct-WIh" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="9Di-z6-fRm"/>
+                <constraint firstAttribute="bottom" secondItem="hKg-f4-xor" secondAttribute="bottom" constant="10" id="Lj6-FI-b7Q"/>
+                <constraint firstItem="VTV-Ky-SaY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="Mv5-21-E0L"/>
+                <constraint firstItem="FYN-ct-WIh" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="nka-R2-6mB"/>
+                <constraint firstItem="hKg-f4-xor" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="tfU-JU-0LY"/>
+                <constraint firstItem="VTV-Ky-SaY" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="zE4-bS-X9B"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="72" height="128"/>
+            <connections>
+                <outlet property="labelDescriptor" destination="hKg-f4-xor" id="VJX-IX-sJF"/>
+                <outlet property="labelTime" destination="VTV-Ky-SaY" id="O7g-PL-hOY"/>
+                <outlet property="labelWeatherIcon" destination="FYN-ct-WIh" id="TnL-uM-ssY"/>
+            </connections>
+            <point key="canvasLocation" x="79.710144927536234" y="81.696428571428569"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.9.1)
+  - ObjectMapper (4.2.0)
+  - ReachabilitySwift (3)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - ObjectMapper
+  - ReachabilitySwift (~> 3)
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ObjectMapper
+    - ReachabilitySwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: ef32b6f28722ed6b8110d5051b934fca8a793baa
+
+COCOAPODS: 1.8.4
