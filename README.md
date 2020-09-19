@@ -6,7 +6,7 @@ Simple Weather App for understanding of MVP + Injecting Test Cases
 
 iOS MVP Boilerplate, for understanding of MVP + test cases & Mocking Server Data, written in Swift.
 
-![alt tag](https://raw.github.com/iranaahsanali/ios-mvp/master/DemoSS/demo_1.png){:height="300px" width="300px"}
+![alt tag](https://raw.github.com/iranaahsanali/ios-mvp/master/DemoSS/demo_1.png)
 ![alt tag](https://raw.github.com/iranaahsanali/ios-mvp/master/DemoSS/demo_2.png)
 
 ## Requirements
